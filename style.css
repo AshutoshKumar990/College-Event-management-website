@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: white;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar .logo {
+  color: deeppink;
+  font-weight: bold;
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: midnightblue;
+  color: white;
+  padding: 40px 20px;
+}
+
+.left-info {
+  max-width: 420px;
+  margin: 15px;
+}
+
+.date-tag {
+  color: turquoise;
+  font-size: 14px;
+}
+
+.btn-pink, .submit-btn {
+  display: inline-block;
+  background-color: deeppink;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-card {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  margin: 15px;
+  text-align: left;
+}
+
+.form-card input, .form-card select {
+  width: 95%;
+  padding: 7px;
+  margin: 5px 0 10px 0;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
+.section {
+  padding: 35px 20px;
+}
+
+.event-card, .schedule-line {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 8px;
+}
+
+.event-card {
+  width: 240px;
+}
+
+.event-card span {
+  color: deeppink;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+footer {
+  padding: 15px;
+  background-color: midnightblue;
+  color: white;
+  font-size: 14px;
+}
